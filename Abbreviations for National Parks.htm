@@ -1,0 +1,2989 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>NPSmap2</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.4pt;
+	font-size:12.0pt;
+	font-family:"Cambria",serif;
+	color:black;
+	font-weight:bold;}
+p.Para1, li.Para1, div.Para1
+	{mso-style-name:"Para 1";
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.4pt;
+	font-size:12.0pt;
+	font-family:"Cambria",serif;
+	color:black;
+	font-style:italic;}
+p.Para2, li.Para2, div.Para2
+	{mso-style-name:"Para 2";
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.4pt;
+	font-size:12.0pt;
+	font-family:"Cambria",serif;
+	color:black;}
+span.0Text
+	{mso-style-name:"0 Text";
+	font-weight:bold;}
+span.1Text
+	{mso-style-name:"1 Text";
+	font-style:italic;}
+span.2Text
+	{mso-style-name:"2 Text";
+	font-weight:bold;
+	font-style:italic;}
+p.0Block, li.0Block, div.0Block
+	{mso-style-name:"0 Block";
+	margin:0in;
+	margin-bottom:.0001pt;
+	line-height:14.4pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US>
+
+<div class=WordSection1>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><a name=p1></a><span lang=EN><img width=624 height=449
+id="index-1_1.png" src="LAKE_files/image001.jpg" alt="index-1_1.png"></span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><img width=133 height=169 src="LAKE_files/image002.png"
+alt="index-1_2.png"><br clear=ALL>
+</p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>San Juan</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Abbreviations for National Park System
+Areas</span><span class=0Text><span lang=EN style='font-weight:normal'> </span></span><span
+lang=EN>Where the Parks Are</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Island</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span class=0Text><span lang=EN>IHS </span></span><span
+lang=EN>International Historic Site <span class=0Text>NL </span>National
+Lakeshore <span class=0Text>N PRES </span>National Preserve <span class=0Text>NS
+</span>National Seashore <span class=0Text>NHP</span></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>North</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NB</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Alaska: 23 parks</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span class=0Text><span lang=EN> </span></span><span lang=EN>National
+Battlefield <span class=0Text>NM </span>National Monument <span class=0Text>NR </span>National
+River</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span class=0Text><span lang=EN>NSR </span></span><span
+lang=EN>National Scenic River/Riverway Arctic Circle</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Cascades</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Ross Lake NRA</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NP</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span class=0Text><span lang=EN>NBP </span></span><span
+lang=EN>National Battlefield Park <span class=0Text>NM &amp; PRES</span></span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span class=0Text><span lang=EN>NRA </span></span><span
+lang=EN>National Recreation Area <span class=0Text>NST </span>National Scenic
+Trail National Monument and Preserve <span class=0Text>Ebey’s Landing</span></span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span class=0Text><span lang=EN>NBS </span></span><span
+lang=EN>National Battlefield Site <span class=0Text>NRR </span>National
+Recreational River <span class=0Text>PKWY </span>Parkway</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Olympic NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Lake Chelan NRA</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NMP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NH RES</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span class=0Text><span lang=EN>NHP </span></span><span
+lang=EN>National Historical Park</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span class=0Text><span lang=EN> </span></span><span lang=EN>National
+Military Park <span class=0Text>NRRA</span></span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span class=0Text><span lang=EN>SRR </span></span><span
+lang=EN>Scenic and Recreational River al</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NHP &amp; PRES</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span class=0Text><span lang=EN>N MEM </span></span><span
+lang=EN>National Memorial National River and Recreation Area <span class=0Text>WR
+</span>Wild River</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>n</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Contiguous US: 357 parks</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>SEATTLE</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>National Historical Park and Preserve <span
+class=0Text>NP </span>National Park</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span class=0Text><span lang=EN>N RES </span></span><span
+lang=EN>National Reserve <span class=0Text>WSR </span>Wild and Scenic River
+atio</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Klondike Gold Rush NHP</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span class=0Text><span lang=EN>NH RES </span></span><span
+lang=EN>National Historical Reserve <span class=0Text>NP &amp; PRES </span></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Puerto Rico and</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>ate Line</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Guam: 1 park</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Hawaii: 7 parks</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span class=0Text><span lang=EN>NHS </span></span><span
+lang=EN>National Historic Site National Park and Preserve</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>tern</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>D</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Virgin Islands: 6 parks</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>In</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Lake Roosevelt NRA</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>OLYMPIA</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Glacier NP</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Equator</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Lake of</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>the Woods</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Mount Rainier NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>American Samoa: 1 park</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Lewis and</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>W A S H I N G T O N</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Clark NHP</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>11 time zones</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Appalachian</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Missouri River </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NST</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Fort Vancouver NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Fort Union Trading Post NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Voyageurs NP</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>PORTLAND</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Colum</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Whitman</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Isle Royale NP</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>bia River </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Nez Perce NHP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Mission NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Saint Croix Island</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Grand Portage NM</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>M O N T A N A</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN> IHS</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>N O R T H D A K O T A</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>SALEM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>LAKE SUPERIOR </span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>HELENA</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Knife River Indian Villages NHS</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>M A I N E</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Theodore</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Grant-Kohrs Ranch NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Apostle</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Roosevelt NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Islands</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Keweenaw NHP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Acadia NP</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>BISMARCK</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NL</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>National Park Service U.S. Department of
+the Interior</span><span class=0Text><span lang=EN style='font-weight:normal'> </span></span><span
+lang=EN>www.nps.gov September 1, 2011January 1, 2011</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Big Hole NB</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>FARGO</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>AUGUSTA</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Pictured</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>John Day Fossil Beds NM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Yellowstone River </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Rocks NL</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>BILLINGS</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>BURLINGTON</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Little Bighorn Battlefield NM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>LA</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>MONTPELIER</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>K</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>I D A H O</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>M I N N E S O T A</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>E</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>VT. </span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>O R E G O N</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Saint Croix NSR</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Bighorn Canyon</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> H</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Marsh-Billings-Rockefeller NHP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NRA</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>U</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Saint-Gaudens NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Crater Lake NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Sleeping</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Yellowstone NP</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>R</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>CONCORD</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Bear</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>O</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>BOISE</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>N.H. </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Oregon Caves</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Mississippi NRRA</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Dunes</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>N</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>ST. PAUL</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>W I S C O N S I N</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NL</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Fort Stanwix</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Devils Tower NM</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>S O U T H D A K O T A</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>MINNEAPOLIS</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Lowell NHP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>M</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>John D. Rockefeller, Jr. </span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>iss</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Saratoga NHP</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>BOSTON</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Cape Cod</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>SYRACUSE</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>M A S S . </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Memorial PKWY</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>is</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Redwood NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Craters of the Moon</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>s</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>PIERRE</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>ip</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>LAKE ONTARIO </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NS</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>ALBANY</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NM &amp; PRES</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>p</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>N</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Springfield</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Hagerman Fossil</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>i</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Grand Teton NP</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>ROCHESTER</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Lava Beds NM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>R</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>A</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Martin Van Buren NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Armory NHS </span><span class=0Text><span
+lang=EN style='font-weight:normal'>PROVIDENCE</span></span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Goose</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Beds NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Mount Rushmore N MEM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>iv</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Pipestone NM </span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>e</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Women’s Rights NHP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Roger Williams N MEM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Jewel Cave NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Minuteman Missile NHS</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>r</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Lake</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>IG</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>N E W Y O R K</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Lake</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Winnebago</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>HARTFORD</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>New Bedford</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Minidoka NHS</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Snake River </span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>H</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>M I C H I G A N</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>BUFFALO</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Badlands NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Vanderbilt Mansion NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span class=0Text><span lang=EN style='font-weight:
+normal'>R.I. </span></span><span lang=EN>Whaling NHP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Wind Cave NP</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>IC</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Theodore Roosevelt</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Inaugural NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Eleanor Roosevelt NHS</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>C O N N . </span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>W Y O M I N G</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Home of Franklin D. Roosevelt NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Whiskeytown-Shasta-Trinity NRA</span><span
+class=0Text><span lang=EN style='font-weight:normal'> </span></span><span
+lang=EN>City of Rocks N RES</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>MILWAUKEE</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> M </span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>LANSING</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Weir Farm NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Effigy Mounds NM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Upper Delaware SRR</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>MADISON</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Lassen Volcanic NP</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>E</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>DETROIT</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Middle Delaware</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>K</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Steamtown NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NSR Thomas</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Sagamore Hill NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Golden Spike NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Fossil Butte NM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>A</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>LAKE ERIE </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Perry’s Victory</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Edison</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Niobrara NSR</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Delaware Water Gap NRA</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Fire Island NS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Missouri NRR</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>L</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>and International</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NHP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Agate Fossil Beds NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>James A. </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Fort Laramie NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>River Raisin NBP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Peace Memorial</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Morristown</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>NEW YORK</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Pyramid</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Garfield NHS</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>CITY</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Great</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>P E N N S Y L V A N I A</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NHP</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Lake</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>CHICAGO</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>CLEVELAND</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>I O W A</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Salt</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Scotts Bluff NM</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>TOLEDO</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>TRENTON</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Lake</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Allegheny</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>N</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Cuyahoga Valley NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Herbert Hoover NHS</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>AKRON</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Lake</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>or</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Indiana Dunes NL</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Portage</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>th</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>DES MOINES</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Johnstown Flood</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>HARRISBURG</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>N.J. </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>BOSTON AREA</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Tahoe</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>SALT LAKE CITY</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Railroad NHS</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>P</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>N E B R A S K A</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>la</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>CHEYENNE</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>t</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>CARSON CITY</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>t</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>First Ladies NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>N MEM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>e</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Adams NHP</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>PHILADELPHIA</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Point</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> R</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>SACRAMENTO</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Utah</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>iver</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Timpanogos Cave NM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>OMAHA</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>PITTSBURGH</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Flight 93</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Boston African American</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Reyes NS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Gettysburg NMP</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>N E V A D A</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Lake</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Dinosaur NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Great Egg</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>N MEM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN> NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Muir Woods NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Harbor SRR</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Boston Harbor Islands NRA</span><span
+class=0Text><span lang=EN style='font-weight:normal'> O H I O</span></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Friendship Hill</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Eisenhower NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Fort Necessity NB</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Rosie the Riveter/World War II Home Front
+NHP</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>DEL. </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Boston NHP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Port Chicago Naval Magazine N MEM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Platte River </span><span class=1Text><span
+lang=EN style='font-style:normal'> LINCOLN</span></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Dayton</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Rocky Mountain NP</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>DOVER</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Frederick Law Olmsted NHS</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>I N D I A N A</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>MD. </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>John Muir NHS</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Walker</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Aviation</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>COLUMBUS</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>BALTIMORE</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>John Fitzgerald Kennedy NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Heritage</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Harpers Ferry NHP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Eugene O’Neill NHS</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Lake</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>ANNAPOLIS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Longfellow House-</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>I L L I N O I S</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Great Basin NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Homestead NM of America</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NHP</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>SAN FRANCISCO</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Mono</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>INDIANAPOLIS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Hopewell</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Cedar Creek and</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN> Washington’s Headquarters NHS</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>WASHINGTON, D.C. </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Fort Point NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Yosemite NP</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>U T A H</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>DENVER</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Lake</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Culture NHP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Belle Grove NHP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Minute Man NHP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Golden Gate NRA</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>reen River </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Thomas Stone NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Salem Maritime NHS</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>G</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>SPRINGFIELD</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>San Francisco Maritime</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>W E S T</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Lincoln Home NHS</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>CINCINNATI</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Shenandoah NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>George Washington</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Saugus Iron Works NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NHP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Devils Postpile NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>William Howard Taft NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Birthplace NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Colorado NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Assateague</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>C A L I F O R N I A</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>C O L O R A D O</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>V I R G I N I A</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Arches NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Nicodemus NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Fredericksburg and Spotsylvania Island NS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Florissant Fossil Beds NM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Missouri </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NEW YORK CITY AREA</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Pinnacles NM</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>KANSAS CITY</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>O</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>CHARLESTON</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>County Battlefields</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>h</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Capitol Reef NP</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>RICHMOND</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>African Burial Ground NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Black Canyon of the Gunnison NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>George Rogers</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>io River </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Memorial NMP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Harry S Truman NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Gauley River NRA</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Richmond NBP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Kings Canyon NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Canyonlands NP</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>TOPEKA</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Clark NHP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Castle Clinton NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Cedar Breaks NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Curecanti NRA</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Maggie L. Walker NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Federal Hall N MEM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Death</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Sand Creek Massacre NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Brown v. Board</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>River </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>New River</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>ST. LOUIS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>of Education NHS</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>FRANKFORT</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>V I R G I N I A</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Gateway NRA </span><span class=0Text><span
+lang=EN style='font-weight:normal'>(also N.J.) </span></span><span lang=EN>Valley
+NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Jefferson National</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>LOUISVILLE</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Gorge NR</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Colonial NHP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Sequoia NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Bryce</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Glen Canyon NRA</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>JEFFERSON CITY</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Ulysses S. </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Bluestone NSR</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>General Grant N MEM</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>K A N S A S</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Expansion Memorial</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Appomattox Petersburg</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Zion NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Canyon</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Natural Bridges NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Bent’s Old Fort NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Tallgrass Prairie</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Grant NHS </span><span class=0Text><span
+lang=EN style='font-weight:normal'> </span></span><span class=2Text><span
+lang=EN style='font-weight:normal'>M</span></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Governors Island NM</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>NORFOLK</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Manzanar NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Fort Larned NHS</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>is</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Court House NB</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>N PRES</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>s</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Lincoln Boyhood N MEM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Hamilton Grange N MEM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Hovenweep NM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Ark</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>i</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NHP</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>a</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>s</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>K E N T U C K Y</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Pipe Spring NM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>n</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Saint Paul’s Church NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Great Sand Dunes NP &amp; PRES</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>s</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>s</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>a</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>M I S S O U R I</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>i</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Yucca House NM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>s</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>p</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Booker T. Washington NM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> R</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>p</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Statue of Liberty NM</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>LAS VEGAS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Rainbow Bridge</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>iv</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Wright Brothers</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>e</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Fort Scott NHS</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>i</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>r </span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> R</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Abraham Lincoln Birthplace NHP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>N MEM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Theodore Roosevelt Birthplace</span><span
+class=0Text><span lang=EN style='font-weight:normal'> </span></span><span
+lang=EN>Grand Canyon NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Mesa Verde NP</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>WICHITA</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>ive</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Mammoth Cave NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN> NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Fort Raleigh</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Navajo NM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>r </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Cumberland Gap</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Aztec Ruins NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Ozark NSR</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NHP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Lake Mead</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Wilson’s Creek NB</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Guilford Courthouse NMP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Big South Fork NRRA</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Blue Ridge</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>PHILADELPHIA AREA</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NRA</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Canyon de Chelly NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Andrew</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>PKWY</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Capulin Volcano NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Edgar Allan Poe NHS</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>RALEIGH</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Mojave</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>George Washington Carver NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Johnson</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Fort Donelson NB</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Cape Hatteras</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Hopewell Furnace NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>N PRES</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Hubbell Trading</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Chaco Culture NHP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Wupatki NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Independence NHP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Santa Monica</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Obed WSR</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NS</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>N O R T H C A R O L I N A</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Post NHS</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>NASHVILLE</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Thaddeus Kosciuszko N MEM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Mountains NRA</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Pea Ridge NMP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Stones River NB</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Valley Forge NHP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Sunset Crater Volcano NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Bandelier NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Fort Union NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Carl Sandburg</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>W</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>CHARLOTTE</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Channel Islands</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Walnut Canyon NM</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>TULSA</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Cape Lookout</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>h</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>T E N N E S S E E</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Great Smoky Mountains NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Home NHS</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>LOS ANGELES</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>SANTA FE</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>i</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NP</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Canadian River </span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>te </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Joshua Tree NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Pecos NHP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Petroglyph</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Buffalo NR</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>BALTIMORE AREA</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Tuzigoot NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Lake Meredith NRA</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Cowpens Kings</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Washita Battlefield NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Petrified Forest NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Chickamauga and</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NB Mountain NMP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Moores Creek NB</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Fort McHenry NM and</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Montezuma Castle NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>El Morro NM</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>ALBUQUERQUE</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Alibates Flint</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>OKLAHOMA CITY</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Fort Smith NHS</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>R</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Chattanooga NMP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN> Historic Shrine</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Quarries NM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>iv</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Shiloh NMP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Hampton NHS</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>e</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> River </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>El Malpais</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>r</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>MEMPHIS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Russell Cave NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Appalachian</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>S O U T H C A R O L I N A</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Salton</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>A R I Z O N A</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>O K L A H O M A</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>A R K A N S A S</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>T</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NST</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Ninety Six NHS</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>COLUMBIA</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Sea</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>enn</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>N E W M E X I C O</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>ess</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>WASHINGTON, D.C. AREA</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>e</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>SAN DIEGO</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>e</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>lorad o</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Brices Cross Roads</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>uide</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>PHOENIX</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Salinas Pueblo Missions NM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Little River Canyon N PRES</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Tonto NM</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>LITTLE ROCK</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>o</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Hot Springs NP</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>DISTRICT OF COLUMBIA</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Congaree NP</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> River </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Cabrillo NM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>C</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NBS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Little Rock Central </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Carter G. Woodson Home NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Chickasaw NRA</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Chattahoochee River NRA</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Constitution Gardens</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Hohokam Pima NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>High School NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Tupelo NB</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Kennesaw Mountain NBP</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>ATLANTA</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Ford’s Theatre NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Casa Grande Ruins NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Natchez Trace</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Martin Luther King, Jr. </span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Sa</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Franklin Delano Roosevelt</span><span
+class=0Text><span lang=EN style='font-weight:normal'> </span></span><span
+lang=EN>Gila Cliff Dwellings NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Arkansas Post N MEM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NHS</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>v</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Charles Pinckney NHS</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>iver </span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>a</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>PKWY &amp; NST</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>n</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN> Memorial</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>BIRMINGHAM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>n</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>CHARLESTON</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>a</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Frederick Douglass NHS</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>G E O R G I A</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>h</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Fort Sumter NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Organ Pipe Cactus NM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>s R</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>President William</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Korean War Veterans Memorial</span><span
+class=0Text><span lang=EN style='font-weight:normal'> </span></span><span
+class=2Text><span lang=EN style='font-weight:normal'>R</span></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Jefferson Clinton</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Horseshoe Bend NMP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Ocmulgee NM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>iv</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Lincoln Memorial</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>e</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>White Sands NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Lyndon Baines Johnson</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Peco</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Birthplace Home NHS</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>r </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Saguaro NP</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>A L A B A M A</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Tuskegee</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN> Memorial Grove</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>P A C I F I C</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Fort Bowie NHS</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>M I S S I S S I P P I</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Martin Luther King, Jr., </span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>R</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Airmen NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>nd G</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>FT WORTH</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>DALLAS</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>e</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Andersonville NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Fort Pulaski NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Poverty Point NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN> Memorial</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>MONTGOMERY</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Chiricahua NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Vicksburg</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>A T L A N T I C</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>d </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Tuskegee</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Mary McLeod Bethune</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NMP </span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>O C E A N</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Carlsbad Caverns NP</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Tumacacori NHP</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> R</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Institute NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Jimmy Carter NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN> Council House NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>and G</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>iv</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>National Capital Parks</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Coronado N MEM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>e</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>JACKSON</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>O C E A N</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>r </span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>iver </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>National Mall</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>EL PASO</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Guadalupe</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Fort Frederica NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Pennsylvania Avenue NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Chamizal N MEM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Cane River</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Mountains NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Creole NHP </span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>a R</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Rock Creek Park</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Cumberland Island NS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Theodore Roosevelt Island</span><span
+class=0Text><span lang=EN style='font-weight:normal'> </span></span><span
+lang=EN>Thomas Jefferson Memorial</span><span class=0Text><span lang=EN
+style='font-weight:normal'> T E X A S</span></span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>L O U I S I A N A</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Natchez NHP</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>labam</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Vietnam Veterans Memorial</span><span
+class=0Text><span lang=EN style='font-weight:normal'> </span></span><span
+class=2Text><span lang=EN style='font-weight:normal'>B</span></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Timucuan Ecological and Historic Preserve</span><span
+class=0Text><span lang=EN style='font-weight:normal'> </span></span><span
+lang=EN>ap ap </span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>r</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>A</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>a</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Washington Monument</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>R</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>z</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Fort Caroline N MEM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>io</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>o</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>White House</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>s</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>TALLAHASSEE</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>JACKSONVILLE</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Fort Davis NHS</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>World War II Memorial</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>G</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Castillo de San Marcos NM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>R</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>r</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>BATON</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>MARYLAND</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>a</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>i</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Fort Matanzas NM</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>A R C T I C O C E A N</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>ve</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>n</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>M</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>r</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>ROUGE</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Antietam NB</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>d</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Big Thicket N PRES</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Catoctin Mountain Park</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>e </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Lyndon B. Johnson NHP</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>AUSTIN</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Gulf Islands NS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Chesapeake and Ohio Canal</span><span
+class=0Text><span lang=EN style='font-weight:normal'> </span></span><span
+lang=EN>Rio Grande WSR</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span class=0Text><span lang=EN> NHP </span></span><span
+lang=EN>(also D.C., W.Va.) NEW ORLEANS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Clara Barton NHS</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>C H U K C H I S E A</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>B E A U F O R T S E A</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>New Orleans Jazz NHP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Big Bend</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Jean Lafitte</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Canaveral NS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Fort Washington Park</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN> NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Amistad NRA</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>HOUSTON</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NHP &amp; PRES</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Greenbelt Park</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Monocacy NB</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Piscataway Park</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>SAN ANTONIO</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>F L O R I D A</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>San Antonio Missions NHP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Potomac Heritage NST</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Noatak</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span class=0Text><span lang=EN> </span></span><span lang=EN>(also
+Pa., Va., D.C.) R U S S I A</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>N PRES</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Cape Krusenstern NM</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>TAMPA</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>VIRGINIA</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Gates of the Arctic </span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Arlington House, </span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>IT</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Kobuk</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NP &amp; PRES</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>A</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN> The Robert E. Lee Memorial</span><span
+class=0Text><span lang=EN style='font-weight:normal'> ST. PETERSBURG</span></span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>R</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Valley</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>George Washington Memorial</span><span
+class=0Text><span lang=EN style='font-weight:normal'> </span></span><span
+class=2Text><span lang=EN style='font-weight:normal'>T</span></span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> S</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>De Soto N MEM </span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span class=0Text><span lang=EN> PKWY </span></span><span
+lang=EN>(also Md.)</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>G</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Manassas NBP</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>IN</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Bering Land Bridge</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Prince William Forest Park</span><span
+class=0Text><span lang=EN style='font-weight:normal'> </span></span><span
+class=2Text><span lang=EN style='font-weight:normal'>RE</span></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>N PRES</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Lake</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Wolf Trap National Park for the</span><span
+class=0Text><span lang=EN style='font-weight:normal'> </span></span><span
+class=2Text><span lang=EN style='font-weight:normal'>B</span></span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Yukon </span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>River</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>System </span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN> </span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>G U L F O F M E X I C O</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Okeechobee</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN> Performing Arts</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Yukon-</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>FAIRBANKS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Charley Rivers</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Padre Island NS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>N PRES</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>MIAMI</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>A L A S K A</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Big Cypress N PRES</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Biscayne</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>C A N A D A</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Denali NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Everglades NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>&amp; PRES</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Palo Alto Battlefield</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NHP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Wrangell-</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>ANCHORAGE</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>St. Elias</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>NI‘IHAU</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>KAUA‘I</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>H A W A I I</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Dry Tortugas NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NP &amp; PRES</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Lake Clark</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NP &amp; PRES</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>O‘AHU</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>B E R I N G S E A</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN> World War II</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Klondike Gold Rush NHP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Alagnak WR</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Valor in the Pacific NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Kenai Fjords NP</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Kalaupapa NHP</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>HONOLULU</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Katmai NP</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>GUAM</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>AMERICAN SAMOA</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>PUERTO RICO VIRGIN ISLANDS</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>MOLOKA‘I</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>&amp; PRES</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Glacier Bay</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Haleakalä NP</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>ATLANTIC OCEAN</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>NP &amp; PRES</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>JUNEAU</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>P A C I F I C O C E A N</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>MAUI</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>National Park of </span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>G U L F O F A L A S K A</span><span class=1Text><span
+lang=EN style='font-style:normal'> </span></span><span lang=EN>PHILIPPINE</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Aniakchak NM &amp; PRES</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>SAN JUAN</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>North</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>SEA</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>American Samoa</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>San Juan NHS</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>CHARLOTTE</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Sitka NHP</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>AMALIE</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN> Pu‘ukoholä Heiau NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Virgin Islands NP</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>HAWAI‘I</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN> War in the</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Virgin Islands</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Hagåtña</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Pacific NHP</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>(AGANA)</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>TUTUILA</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>OFU</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Coral Reef NM</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN> Kaloko-Honoköhau NHP</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>TA‘Ü</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Buck Island Reef NM</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>PAGO PAGO</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Salt River Bay NHP</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>ALEUTIAN ISLANDS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN> Pu‘uhonua o Hönaunau NHP</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>0</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>200</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>400 Kilometers</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>P A C I F I C O C E A N</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>and Ecological Preserve Christiansted NHS</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Hawai‘i </span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>Scale for all areas except Alaska <span
+class=1Text>P A C I F I C O C E A N</span></span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>National Park </span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>0</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>200</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>400 Miles</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>0</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>100</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>200 Kilometers</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>P A C I F I C O C E A N</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in'><span lang=EN>Volcanoes NP</span></p>
+
+<p class=Para1 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>C A R I B B E A N S E A</span><span class=1Text><span
+lang=EN style='font-style:normal'> 0</span></span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>100</span></p>
+
+<p class=Para2 style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>200 Miles</span></p>
+
+<p class=0Block style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;
+margin-left:0in'><span lang=EN>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>
