@@ -2,7 +2,7 @@
 A Downloadable collection of publications to help consumers, published by various U.S. federal agencies.\
 Distributed by Jamal Mazrui on February 10, 2019
 
-Operated by the U.S. Government Publishing Office, the Pueblo Distribution Center (US GPO PDC) has supported free distribution of federal publications to help consumers for more than forty years (originally based in Pueblo, Colorado).  The official website is intended as a one-stop source for trusted information oriented to consumers, available as either hardcopy print to order or electronic PDF to download:
+Operated by the U.S. Government Publishing Office, the Pueblo Distribution Center (US GPO PDC) has supported free distribution of federal publications to help consumers for more than forty years (originally based in Pueblo, Colorado).  The official website is intended as a one-stop source for trusted information oriented to consumers, available as either hardcopy print to order or as electronic PDF to download:
 
 <http://pueblo.gpo.gov>
 
@@ -113,6 +113,6 @@ This project is a downloadable collection of all 100 publications that are curre
 
 The whole collection may be downloaded in the following zip archive:
 
-<http://GitHub.com/JamalMazrui/ConsumerPubs/blob/master.zip>
+<https://github.com/jamalmazrui/ConsumerPubs/archive/master.zip>
 
 For greater accessibility, an HTML version of each PDF is also included, produced by automated means.
